@@ -108,7 +108,10 @@ color: #4D5AE5;
 .footer-accent {
   color: #F4F4FD;
 }
-
+.footer-accent:hover,
+.footer-accent:focus {
+  color: #4D5AE5;
+}
 /* Цвет основного текста Roboto 400 #434455*/
 /* Цвет заголовка Roboto 600 #2E2F42*/
 /* Footer text color Roboto 400 #E7E9FC*/
