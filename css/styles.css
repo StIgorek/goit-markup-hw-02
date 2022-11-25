@@ -1,0 +1,116 @@
+
+body {
+  background-color: #E5E5E5;
+  color: #434455;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style: none;
+}
+/*header*/
+.logo {
+color: #4D5AE5;
+font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo .accent {
+color: #2E2F42;
+}
+.accent:hover,
+.accent:focus {
+color: #4D5AE5;
+}
+
+.nav .link {
+  font-weight: 600;
+  color: #2E2F42;
+  text-decoration: none;
+}
+.nav .link:hover, 
+.nav .link:focus {
+  color: #4D5AE5;
+}
+.contact .link {
+  color: #434455;
+  text-decoration: none;
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: #4D5AE5;
+}
+
+/* Main section*/
+.main-section {
+  background-color: #2E2F42;
+}
+.main-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #FFFFFF;
+}
+.button {
+  background-color: #4D5AE5;
+  font-weight: 600;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.button:hover,
+.button:focus {
+background-color: #FFFFFF;
+color: #4D5AE5;
+}
+/*other section*/
+.section-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+.section-header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+}
+
+/*Footer*/
+.footer {
+  background-color: #2E2F42;;
+}
+.footer-text {
+  color: #E7E9FC;
+}
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+}
+.footer-accent {
+  color: #F4F4FD;
+}
+
+/* Цвет основного текста Roboto 400 #434455*/
+/* Цвет заголовка Roboto 600 #2E2F42*/
+/* Footer text color Roboto 400 #E7E9FC*/
+/* Web color Raleway 800: #4D5AE5; Studio color: #F4F4FD */
+/* Hero Roboto 600 color: #FFFFFF */
