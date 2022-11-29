@@ -1,6 +1,6 @@
 
 body {
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
   color: #434455;
   font-family: roboto, sans-serif;
   font-style: normal;
@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.main-button, .button, .link {
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
 }
@@ -59,7 +63,7 @@ color: #4D5AE5;
   text-align: center;
   color: #FFFFFF;
 }
-.button {
+.main-button {
   background-color: #4D5AE5;
   font-weight: 600;
   line-height: 1.19;
@@ -67,9 +71,10 @@ color: #4D5AE5;
   align-items: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+
 }
-.button:hover,
-.button:focus {
+.main-button:hover,
+.main-button:focus {
 background-color: #FFFFFF;
 color: #4D5AE5;
 }
@@ -111,6 +116,23 @@ color: #4D5AE5;
 .footer-accent:hover,
 .footer-accent:focus {
   color: #4D5AE5;
+}
+
+/* Portfolio Page */
+.button {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+}
+.button:hover,
+.button:focus {
+  background-color: #4D5AE5;
+  color: #FFFFFF;
 }
 /* Цвет основного текста Roboto 400 #434455*/
 /* Цвет заголовка Roboto 600 #2E2F42*/
