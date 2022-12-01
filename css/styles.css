@@ -60,7 +60,7 @@ font-family: Raleway, sans-serif;
 }
 .nav .link:hover, 
 .nav .link:focus {
-  color: #D9D9D9;
+  color: var(--primary-text-color);
 }
 .nav .link:active {
   color: var(--primary-brand-color);
