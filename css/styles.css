@@ -44,16 +44,25 @@ font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo .accent {
+.accent {
 color: var(--title-text-color);
+font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .nav .link {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--title-text-color);
 }
 .nav .link:hover, 
 .nav .link:focus {
+  color: #D9D9D9;
+}
+.nav .link:active {
   color: var(--primary-brand-color);
 }
 .contact .link {
@@ -69,7 +78,7 @@ color: var(--title-text-color);
   background-color: var(--title-text-color);
 }
 .main-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -78,7 +87,7 @@ color: var(--title-text-color);
 .main-button {
   background-color: var(--primary-brand-color);
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.19;
   display: flex;
   align-items: center;
@@ -87,17 +96,17 @@ color: var(--title-text-color);
 }
 .main-button:hover,
 .main-button:focus {
-background-color: var(--primary-bg-color);
-color: var(--primary-brand-color);
+background-color: var(--primary-brand-color);
+color: var(--primary-bg-color);
 }
-.main-button:active{
+main-button:active {
   background-color: #404BBF;
-    color: var(--primary-brand-color);
+    color: var(--primary-bg-color);
 }
 
 /*other section*/
 .section-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -105,7 +114,7 @@ color: var(--primary-brand-color);
   color: var(--title-text-color);
 }
 .section-header {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-text-color);
@@ -129,12 +138,18 @@ color: var(--primary-brand-color);
 }
 .footer-accent {
   color: #F4F4FD;
+  font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 /* Portfolio Page */
 .button {
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   align-items: center;
   text-align: center;
